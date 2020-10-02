@@ -1,12 +1,15 @@
 .heading {
     padding: 50px;
-    background-color: navy;
+    background-color: rgb(10, 10, 71);
     color: white;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
    
 
 }
 
 .h1 {
-    font-size: 
+    font-size: 40px;
+    font-style: normal;
+    
 }
