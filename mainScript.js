@@ -14,11 +14,11 @@ var nytAPIKey = "jHYddvB3BUPWEx0heZRUb0DUopijsuye";
 
 //#region Function Definitions
 function myFunction() {
-    alert ("search");
+    console.log("Search Clicked");
 }
 
 function myFunction() {
-    alert ("clear");
+    console.log("Clear Clicked");
 }
 
 
