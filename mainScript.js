@@ -1,5 +1,8 @@
 //#region Variable Declaration
-
+var x =$("#searchTerm");
+var x =$("#numRecords");
+var x =$("#startYear");
+var x =$("#endYear");
 
 //#endregion
 
@@ -9,11 +12,11 @@
 
 
 //#region Function Definitions
-function myFunction() {
+function searchFunction() {
     alert ("search");
 }
 
-function myFunction() {
+function clearFunction() {
     alert ("clear");
 }
 
@@ -24,8 +27,8 @@ function myFunction() {
 
 //#region Event Listeners
 
-$("#search").addEventListener("click", myFunction);
-$("#clear").addEventListener("click", myFunction);
+$("#search").addEventListener("click", searchFunction);
+$("#clear").addEventListener("click", clearFunction);
 
 
 
