@@ -1,8 +1,8 @@
 //#region Variable Declaration
-var x =$("#searchTerm");
-var x =$("#numRecords");
-var x =$("#startYear");
-var x =$("#endYear");
+var searchTerm = $("#searchTerm");
+var totalRecords = $("#numRecords");
+var startYear = $("#startYear");
+var endYear = $("#endYear");
 
 //#endregion
 
@@ -19,12 +19,23 @@ var nytAPIKey = "jHYddvB3BUPWEx0heZRUb0DUopijsuye";
 
 function searchFunction() {
     console.log("Search Clicked");
-}
+
+    var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + searchTerm + "&api-key=" + nytAPIKey;
+
+
+    $.ajax({
+        url: queryURL,
+        method: "GET"
+    }).then(function (article){
+
+
+    });
+};
 
 function clearFunction() {
     console.log("Clear Clicked");
 
-}
+};
 
 
 //#endregion
