@@ -13,7 +13,13 @@ var nytAPIKey = "jHYddvB3BUPWEx0heZRUb0DUopijsuye";
 
 
 //#region Function Definitions
+function myFunction() {
+    alert ("search");
+}
 
+function myFunction() {
+    alert ("clear");
+}
 
 
 //#endregion
@@ -21,6 +27,12 @@ var nytAPIKey = "jHYddvB3BUPWEx0heZRUb0DUopijsuye";
 
 
 //#region Event Listeners
+
+$("#search").addEventListener("click", myFunction);
+$("#clear").addEventListener("click", myFunction);
+
+
+
 
 
 
